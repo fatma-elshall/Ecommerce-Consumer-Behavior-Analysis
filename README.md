@@ -75,15 +75,15 @@ To provide a general overview of sales performance, customer demographics, and k
   * Create targeted offers for price-sensitive customers (frequent discount users).
 
 # 🔵 Dashboard 2: Customer Behavior Dashboard
-* ✅ Purpose:
+ * ✅ Purpose:
 To analyze customer behavior in depth, focusing on age, purchase frequency, discounts, and decision speed.
 
 * 🔑 KPIs:
- * Purchase Frequency by Age Group: Middle-aged customers (30-45) accounted for 46.6% of purchases → key target group.
+  * Purchase Frequency by Age Group: Middle-aged customers (30-45) accounted for 46.6% of purchases → key target group.
 
- * Return Rate by Age Group: Highest return rates among young adults → indicates impulsive buying or dissatisfaction.
+  * Return Rate by Age Group: Highest return rates among young adults → indicates impulsive buying or dissatisfaction.
 
- * Engagement Impact on Purchases: High engagement leads to higher spending.
+  * Engagement Impact on Purchases: High engagement leads to higher spending.
 
 * 🔍 Key Insights:
   * Quick decision-makers were less satisfied.
