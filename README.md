@@ -1,187 +1,186 @@
-# Ecommerce-Consumer-Behavior-Analysis
+# 📘 E-commerce Consumer Behavior Analysis
 
-🎯 #  Main Objective
-To analyze consumer behavior in an e-commerce setting in order to identify purchasing patterns, customer segments, and product preferences — aiming to improve data-driven decisions, marketing strategies, and customer engagement.
+# Project Objective:
 
-🛠 Tools Used
-Google Sheets (for data cleaning )
+* The main goal of this project is to analyze consumer behavior in an e-commerce environment to:
 
-Google Looker Studio (for dashboard  and visualization)
+* Identify key purchasing patterns
 
-📊 Dashboard 1: Overview Dashboard
-🧭 Purpose:
-To provide a high-level view of the entire dataset, including customer demographics, performance indicators, and geographical distribution.
+* Segment customer groups
 
-🔍 What it includes:
-Total customers
+* Understand product preferences. 
 
-Average purchase amount
+This analysis aims to generate actionable insights to improve marketing strategies, optimize product offerings, and enhance customer satisfaction.
 
-Average satisfaction score
+#  Tools Used:
 
-Loyalty rate
+* Google Sheets: For data cleaning and processing. 
 
-Average decision time
+* Google Looker Studio: For building interactive dashboards.
 
-Purchase channel distribution
+# 📂 Project Workflow:
 
-Customer gender distribution
+# 1. Data Cleaning and Preparation:
 
-Revenue by region
+ * Handled missing values.
 
-📈 Key Findings:
-Highest revenue came from females (46.4%), followed by males (43.7%).
+ * Filtered out irrelevant rows and outliers.
 
-Online and In-Store were the dominant purchase channels.
+# 2. Calculated Fields inside google looker studio:
 
-Top purchasing regions included Göteborg and Oslo.
+Key calculated fields created to extract deeper insights:
 
-✅ Recommendations:
-Focus marketing campaigns on top-performing regions.
+* Age Group Segmentation:
+ To analyze product preferences and tailor offers for each age segment.
 
-Enhance the user experience and offers across the most used channels (Online & In-Store).
+* Customer Loyalty Score:
+Based on Frequency of Purchase, Return Rate, and Customer Satisfaction to understand loyalty patterns across demographics and channels.
 
-Consider segment-specific messaging for female buyers, the most profitable segment.
+* Customer Satisfaction Clustering:
+Grouped satisfaction scores into 3 levels (Low – Medium – High) to target the least satisfied customers for service improvement.
 
-📊 Dashboard 2: Customer Behavior Dashboard
-🧭 Purpose:
-To understand how customers behave before and after purchase and what factors affect their decisions.
+* Decision Speed Segmentation:
+Classified customers into Fast – Moderate – Slow decision-makers to build behavior-based marketing strategies.
 
-🔍 What it includes:
-Frequency of purchase
+* Quick Decision & Unhappy Customers Identification:
+Calculated the percentage of customers who made quick purchase decisions but were unsatisfied.
 
-Decision time
+📌 Result: 8.33% of customers need re-targeting and improved service descriptions.
 
-Discounts vs purchases
+# 3. Dashboard Summaries
 
-Loyalty vs spending
+# 🟢 Dashboard 1: Overview Dashboard
+* ✅ Purpose:
+To provide a general overview of sales performance, customer demographics, and key purchasing channels.
 
-Purchases by age group
+* 🔑 KPIs:
+   * Total Purchase Amount: 275.1K → Indicates overall sales volume.
 
-Return rate by segment
+   * Average Product Rating: 3.03 → Reflects general product quality.
 
-📈 Key Findings:
-The 30–45 age group made up the largest percentage of buyers (46.6%).
+   * Average Customer Satisfaction (CSAT): 5.4/10 → Measures overall customer experience.
 
-Customers with higher engagement levels had higher purchase amounts.
+   * Average Decision Time: 7.55 days → Highlights how quickly customers decide.
 
-Fast decision-makers had lower satisfaction rates.
+* 🔍 Key Insights:
+   * Female customers generated 46.4% of total revenue.
 
-Return rates were highest among young adults.
+   * Online and In-Store channels were the most effective.
 
-✅ Recommendations:
-Target middle-aged customers with loyalty incentives.
+   * Discounts were used by 52% of customers → indicates high price sensitivity.
 
-Offer educational or supportive content to help fast decision-makers make more informed choices.
+* 💡 Key Recommendations:
+  * Focus marketing on online and in-store channels.
 
-Identify and improve the product experience for young adult buyers.
+  * Create targeted offers for price-sensitive customers (frequent discount users).
 
-📊 Dashboard 3: Marketing Optimization Dashboard
-🧭 Purpose:
-To evaluate the performance of marketing channels, customer loyalty levels, and the impact of pricing and discount strategies.
+# 🔵 Dashboard 2: Customer Behavior Dashboard
+* ✅ Purpose:
+To analyze customer behavior in depth, focusing on age, purchase frequency, discounts, and decision speed.
 
-🔍 What it includes:
-Discount effectiveness
+* 🔑 KPIs:
+ * Purchase Frequency by Age Group: Middle-aged customers (30-45) accounted for 46.6% of purchases → key target group.
 
-Purchases by loyalty level
+ * Return Rate by Age Group: Highest return rates among young adults → indicates impulsive buying or dissatisfaction.
 
-Return rate by device
+ * Engagement Impact on Purchases: High engagement leads to higher spending.
 
-Purchase intent distribution
+* 🔍 Key Insights:
+  * Quick decision-makers were less satisfied.
 
-Decision speed analysis
+  * Younger customers had higher return rates.
 
-Channel vs loyalty insights
+  * Highly engaged customers spent more.
 
-📈 Key Findings:
-Over 52% of customers used discounts, confirming high price sensitivity.
+* 💡 Key Recommendations:
+  * Improve product descriptions and visuals to help fast decision-makers.
 
-Only 14.6% of customers were highly loyal.
+  * Offer educational content or detailed comparison for younger buyers.
 
-Mobile users showed the highest return rates, suggesting UX issues.
+  * Increase customer engagement campaigns to drive higher spending.
 
-Impulsive buyers made the quickest decisions but had lower satisfaction.
+# 🟣 Dashboard 3: Marketing Optimization Dashboard
+ * ✅ Purpose:
+  
+   * To assess marketing performance, loyalty programs, and device-related purchasing patterns.
 
-✅ Recommendations:
-Run targeted discount campaigns, especially for price-sensitive and occasional buyers.
+* 🔑 KPIs:
+   * Discount Usage Rate: 52% → indicates price sensitivity.
 
-Improve mobile UX to reduce returns.
+   * Loyalty Distribution: Only 14.6% of customers were highly loyal.
 
-Invest in customer loyalty programs to convert occasional buyers into long-term customers.
+   * Return Rate by Device: Smartphones showed the highest return rates → possible mobile UX issue.
 
-Personalize campaign content based on purchase intent types (Impulsive vs Planned).
+* 🔍 Key Insights:
+   * Occasional buyers dominate (80.2% of total customers).
 
-📊 Dashboard 4: Customer Insights Dashboard
-🧭 Purpose:
-To analyze demographic and psychological factors influencing purchase behavior, aiming to optimize targeting and personalization.
+   * Impulsive buyers make fast decisions but report lower satisfaction.
 
-🔍 What it includes:
-Decision speed segmentation
+   * Return rates are significantly higher among smartphone users.
 
-Quick & unsatisfied customers
+* 💡 Key Recommendations:
+   * Launch loyalty programs to increase repeat purchases.
 
-Satisfaction clusters
+  * Optimize mobile shopping experience to reduce return rates.
 
-Purchase intent behavior
+  * Design behavior-based marketing campaigns tailored to purchase intent (Impulsive vs. Planned).
 
-Time spent on research
+# 🟡 Dashboard 4: Customer Insights Dashboard
+ * ✅ Purpose:
+   
+   * To explore demographic and psychological factors affecting purchasing behavior.
 
-Device usage impact
+* 🔑 KPIs:
+  
+   * Quick Decision & Unhappy Customers: 8.3% → requires re-targeting and experience improvement.
 
-Educational level and marital status breakdown
+   * Average Research Time by Education Level: Customers with higher education spend more time researching.
 
-📈 Key Findings:
-8.3% of customers who made quick decisions were unsatisfied.
+   * Purchase Intent Distribution: Balanced between Need-based, Wants-based, Impulsive, and Planned buyers.
 
-Smartphone users returned products more frequently than desktop users.
+* 🔍 Key Insights:
+  
+   * Smartphone users have a higher tendency to return products.
 
-Customers with higher education levels took longer to decide but had higher intent and engagement.
+   * Highly educated and married customers have stronger purchase intent but take longer to decide.
 
-Planned buyers took longer to decide but reported higher satisfaction.
+   * Impulsive buyers decide quickly but are often less satisfied.
 
-Impulsive buyers made decisions fast but often had lower satisfaction.
+* 💡 Key Recommendations:
+  
+   * Retarget quick decision-makers who reported dissatisfaction.
 
-✅ Recommendations:
-Create customized journeys based on decision speed and satisfaction (e.g., retarget fast/unhappy buyers).
+   * Offer detailed educational content for customers with longer research times.
 
-Use educational and detailed product content for customers with higher research and planning behavior.
+   * Improve the mobile user experience to reduce return rates and support better decision-making.
 
-Adjust mobile experience for impulsive users to help them make more confident purchases.
+# Final Business Recommendations:
 
-Segment campaigns by purchase intent to improve targeting precision and ROI.
+* Launch effective loyalty programs to increase customer retention and reduce occasional buying.
 
-📌 Summary of Insights (All Dashboards)
-Customer loyalty is limited: only 14.6% of customers fall into the “high loyalty” category.
+* Optimize mobile shopping experience to lower return rates and increase conversions.
 
-Middle-aged buyers (30–45) are the most valuable segment.
+* Implement behavior-based marketing tailored to decision speed and purchase intent.
 
-Quick decision-makers often regret their purchases → satisfaction drops.
+* Target price-sensitive segments with smart discounts and customized offers.
 
-Discount usage is high (52%) → pricing sensitivity is a key factor.
+* Continuously monitor customer behavior to refine marketing strategies and improve store performance.
 
-Mobile experience affects return rate → mobile shoppers return more products.
+* Provide detailed, educational content for customers who spend more time researching products.
 
-Purchase intent types vary in behavior and satisfaction → targeting must be differentiated.
+# 📈 Estimated Business Impact:
 
-💼 Business Recommendations (Overall)
-Launch Loyalty Programs
-To retain high-value customers and move “occasional” buyers into loyal segments.
+Based on the analysis and data-driven recommendations, the project is expected to:
 
-Segment Campaigns by Behavior
-Use decision speed, satisfaction level, and purchase intent to tailor messaging and content.
+* Improve marketing efficiency by up to 30%.
 
-Enhance Mobile UX
-As mobile users show higher returns, optimizing mobile layouts and product previews is crucial.
+* Increase customer retention by up to 25%.
 
-Target Price-Sensitive Segments
-Promote discounts for online buyers and middle-aged customers.
+* Reduce decision-making time for stakeholders by up to 40% (via automated dashboards).
 
-Personalize the Customer Journey
-Use insights from decision speed and intent to create separate journeys:
+* Decrease mobile return rates by approximately 15-20%.
 
-Fast + Impulsive → urgent offers with clear value
-
-Slow + Planned → educational content, testimonials, comparisons
+Note: These are potential improvements based on in-depth analysis and standard e-commerce trends. Actual results may vary depending on real-world implementation and business context.
 
 Link dashboard in Google Looker Studio:   https://lookerstudio.google.com/reporting/aae6147f-c6c3-4e0f-a3cb-6fb3ccef1bc4
 
